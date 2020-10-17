@@ -2,9 +2,9 @@
 
 class connectClass {
 
-    private $host = 'localhost';
+    private $host = 'localhost:3306';
     private $user = 'root';
-    private $password = '2';
+    private $password = '';
     private $twitter_db = 'twitter_clone';
 
     public function openConnect(){
